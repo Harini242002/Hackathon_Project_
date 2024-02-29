@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T14:54:09 IST" name="Suite" finished-at="2024-02-29T14:54:52 IST" duration-ms="43344">
+    <groups>
+      <group name="regression">
+        <method signature="TC_01_Travel.traveldetails()[pri:1, instance:testcase.TC_01_Travel@3b0fe47a]" name="traveldetails" class="testcase.TC_01_Travel"/>
+        <method signature="TC_02_Car.carinsurances()[pri:1, instance:testcase.TC_02_Car@74e28667]" name="carinsurances" class="testcase.TC_02_Car"/>
+        <method signature="TC_03_Health.Healthinsurance()[pri:1, instance:testcase.TC_03_Health@1cf6d1be]" name="Healthinsurance" class="testcase.TC_03_Health"/>
+        <method signature="TC_03_Health.Healthinsurance_menu()[pri:2, instance:testcase.TC_03_Health@1cf6d1be]" name="Healthinsurance_menu" class="testcase.TC_03_Health"/>
+        <method signature="TC_01_Travel.notravellers()[pri:3, instance:testcase.TC_01_Travel@3b0fe47a]" name="notravellers" class="testcase.TC_01_Travel"/>
+        <method signature="TC_01_Travel.studentplans()[pri:7, instance:testcase.TC_01_Travel@3b0fe47a]" name="studentplans" class="testcase.TC_01_Travel"/>
+        <method signature="TC_02_Car.userdetails_and_errormsg()[pri:8, instance:testcase.TC_02_Car@74e28667]" name="userdetails_and_errormsg" class="testcase.TC_02_Car"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_01_Travel.date()[pri:2, instance:testcase.TC_01_Travel@3b0fe47a]" name="date" class="testcase.TC_01_Travel"/>
+        <method signature="TC_02_Car.carlocation()[pri:2, instance:testcase.TC_02_Car@74e28667]" name="carlocation" class="testcase.TC_02_Car"/>
+        <method signature="TC_02_Car.carno()[pri:3, instance:testcase.TC_02_Car@74e28667]" name="carno" class="testcase.TC_02_Car"/>
+        <method signature="TC_01_Travel.travellerdetails()[pri:4, instance:testcase.TC_01_Travel@3b0fe47a]" name="travellerdetails" class="testcase.TC_01_Travel"/>
+        <method signature="TC_02_Car.carbrand()[pri:4, instance:testcase.TC_02_Car@74e28667]" name="carbrand" class="testcase.TC_02_Car"/>
+        <method signature="TC_01_Travel.medicalcondition()[pri:5, instance:testcase.TC_01_Travel@3b0fe47a]" name="medicalcondition" class="testcase.TC_01_Travel"/>
+        <method signature="TC_02_Car.carmodel()[pri:5, instance:testcase.TC_02_Car@74e28667]" name="carmodel" class="testcase.TC_02_Car"/>
+        <method signature="TC_01_Travel.mobile()[pri:6, instance:testcase.TC_01_Travel@3b0fe47a]" name="mobile" class="testcase.TC_01_Travel"/>
+        <method signature="TC_02_Car.carfuel()[pri:6, instance:testcase.TC_02_Car@74e28667]" name="carfuel" class="testcase.TC_02_Car"/>
+        <method signature="TC_02_Car.carvariant()[pri:7, instance:testcase.TC_02_Car@74e28667]" name="carvariant" class="testcase.TC_02_Car"/>
+        <method signature="TC_01_Travel.sortby()[pri:8, instance:testcase.TC_01_Travel@3b0fe47a]" name="sortby" class="testcase.TC_01_Travel"/>
+        <method signature="TC_01_Travel.navigate()[pri:9, instance:testcase.TC_01_Travel@3b0fe47a]" name="navigate" class="testcase.TC_01_Travel"/>
+        <method signature="TC_02_Car.navigate()[pri:9, instance:testcase.TC_02_Car@74e28667]" name="navigate" class="testcase.TC_02_Car"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-29T14:54:09 IST" name="Test" finished-at="2024-02-29T14:54:52 IST" duration-ms="43344">
+      <class name="testcase.TC_03_Health">
+        <test-method signature="Healthinsurance()[pri:1, instance:testcase.TC_03_Health@1cf6d1be]" started-at="2024-02-29T14:54:50 IST" name="Healthinsurance" finished-at="2024-02-29T14:54:50 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Healthinsurance -->
+        <test-method signature="Healthinsurance_menu()[pri:2, instance:testcase.TC_03_Health@1cf6d1be]" started-at="2024-02-29T14:54:50 IST" name="Healthinsurance_menu" finished-at="2024-02-29T14:54:51 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Healthinsurance_menu -->
+      </class> <!-- testcase.TC_03_Health -->
+      <class name="testcase.TC_02_Car">
+        <test-method signature="carinsurances()[pri:1, instance:testcase.TC_02_Car@74e28667]" started-at="2024-02-29T14:54:42 IST" name="carinsurances" finished-at="2024-02-29T14:54:46 IST" duration-ms="3353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carinsurances -->
+        <test-method signature="carlocation()[pri:2, instance:testcase.TC_02_Car@74e28667]" started-at="2024-02-29T14:54:46 IST" name="carlocation" finished-at="2024-02-29T14:54:46 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carlocation -->
+        <test-method signature="carno()[pri:3, instance:testcase.TC_02_Car@74e28667]" started-at="2024-02-29T14:54:46 IST" name="carno" finished-at="2024-02-29T14:54:46 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carno -->
+        <test-method signature="carbrand()[pri:4, instance:testcase.TC_02_Car@74e28667]" started-at="2024-02-29T14:54:47 IST" name="carbrand" finished-at="2024-02-29T14:54:47 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carbrand -->
+        <test-method signature="carmodel()[pri:5, instance:testcase.TC_02_Car@74e28667]" started-at="2024-02-29T14:54:47 IST" name="carmodel" finished-at="2024-02-29T14:54:48 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carmodel -->
+        <test-method signature="carfuel()[pri:6, instance:testcase.TC_02_Car@74e28667]" started-at="2024-02-29T14:54:48 IST" name="carfuel" finished-at="2024-02-29T14:54:48 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carfuel -->
+        <test-method signature="carvariant()[pri:7, instance:testcase.TC_02_Car@74e28667]" started-at="2024-02-29T14:54:48 IST" name="carvariant" finished-at="2024-02-29T14:54:48 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carvariant -->
+        <test-method signature="userdetails_and_errormsg()[pri:8, instance:testcase.TC_02_Car@74e28667]" started-at="2024-02-29T14:54:49 IST" name="userdetails_and_errormsg" finished-at="2024-02-29T14:54:49 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userdetails_and_errormsg -->
+        <test-method signature="navigate()[pri:9, instance:testcase.TC_02_Car@74e28667]" started-at="2024-02-29T14:54:49 IST" name="navigate" finished-at="2024-02-29T14:54:50 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+      </class> <!-- testcase.TC_02_Car -->
+      <class name="testcase.TC_01_Travel">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:09 IST" name="setup" finished-at="2024-02-29T14:54:18 IST" duration-ms="8660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="traveldetails()[pri:1, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:18 IST" name="traveldetails" finished-at="2024-02-29T14:54:21 IST" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- traveldetails -->
+        <test-method signature="date()[pri:2, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:22 IST" name="date" finished-at="2024-02-29T14:54:25 IST" duration-ms="2848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date -->
+        <test-method signature="notravellers()[pri:3, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:25 IST" name="notravellers" finished-at="2024-02-29T14:54:25 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notravellers -->
+        <test-method signature="travellerdetails()[pri:4, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:25 IST" name="travellerdetails" finished-at="2024-02-29T14:54:28 IST" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellerdetails -->
+        <test-method signature="medicalcondition()[pri:5, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:28 IST" name="medicalcondition" finished-at="2024-02-29T14:54:28 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- medicalcondition -->
+        <test-method signature="mobile()[pri:6, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:29 IST" name="mobile" finished-at="2024-02-29T14:54:29 IST" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile -->
+        <test-method signature="studentplans()[pri:7, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:30 IST" name="studentplans" finished-at="2024-02-29T14:54:38 IST" duration-ms="8331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentplans -->
+        <test-method signature="sortby()[pri:8, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:38 IST" name="sortby" finished-at="2024-02-29T14:54:41 IST" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortby -->
+        <test-method signature="navigate()[pri:9, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:41 IST" name="navigate" finished-at="2024-02-29T14:54:42 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.TC_01_Travel@3b0fe47a]" started-at="2024-02-29T14:54:51 IST" name="teardown" finished-at="2024-02-29T14:54:52 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.TC_01_Travel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

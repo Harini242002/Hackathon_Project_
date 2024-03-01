@@ -152,7 +152,7 @@ public class travel extends BasePage{
 			Next.click();
 		}
 		public void studentplan()  {
-			pickstudentplan.click();
+			js.executeScript("arguments[0].click();",pickstudentplan);
 			try {
 				Thread.sleep(4000);
 			} catch (InterruptedException e) {

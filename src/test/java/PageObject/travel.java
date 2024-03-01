@@ -77,10 +77,10 @@ public class travel extends BasePage{
 		@FindBy(xpath="//*[@class='row_wrap']/h1/a")
 		WebElement mainpage;
 		
-		public void travellocation() {
+		public void travellocation()  throws InterruptedException{
 			travelinsurance.click();
 			js.executeScript("arguments[0].click();", Germany);
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+			Thread.sleep(1000);
 				
 		}
 		public void DateClicking() {

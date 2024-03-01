@@ -16,7 +16,7 @@ public class travelStep {
 	}
 
 	@When("user selects the location and date")
-	public void user_selects_the_location_and_date() {
+	public void user_selects_the_location_and_date()  throws InterruptedException{
 	    t.travellocation();
 	    t.DateClicking();
 	}

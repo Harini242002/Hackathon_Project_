@@ -10,7 +10,7 @@ import testbase.Baseclass;
 public class TC_01_Travel extends Baseclass{
 
 @Test(priority=1,groups= {"regression"})
-	public void  traveldetails() {
+	public void  traveldetails()  throws InterruptedException{
 	travel t=new travel(driver);
 	 logger.info("---------------Location Choosed---------");
 		t.travellocation();

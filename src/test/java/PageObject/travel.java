@@ -29,9 +29,8 @@ public class travel extends BasePage{
 		Actions act=new Actions (driver);
 		String timestamp=new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 		String Fromdate=timestamp.substring(6,8);
-		int Todate=Integer.parseInt(Fromdate)+2;
-		String Enddate="3";
-				//Integer.toString(Todate);
+		int Fromdate1=Integer.parseInt(Fromdate)+2;
+		
 		
 		@FindBy(xpath="(//*[@class='shadowHandlerBox'])[7]")
 		WebElement travelinsurance;
@@ -87,6 +86,12 @@ public class travel extends BasePage{
 		public void DateClicking() {
 			Next.click();
 			Date1.click();
+			if(Fromdate1<10) {
+				 Fromdate=timestamp.substring(7,8);
+			}
+			else {
+				Fromdate=timestamp.substring(6,8);
+			}
 			for(int i=0;i<Datepicking.size();i++) {
 				if(Datepicking.get(i).getText().equals(Fromdate)) {
 					Datepicking.get(i).click();
@@ -95,8 +100,8 @@ public class travel extends BasePage{
 				}
 				
 			}
-//			Date1.click();
-//			Date2.click();
+			Date1.click();
+			Date2.click();
 			for(int i=0;i<Datepicking.size();i++) {
 				if(Datepicking.get(i).getText().equals(Fromdate)) {
 					Datepicking.get(i+25).click();
